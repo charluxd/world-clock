@@ -22,5 +22,16 @@ function updateTime() {
   );
 }
 
+function updateCity(event) {
+  let cityTimeZone = event.target.value;
+  let cityTime = moment().tz(cityTimeZone);
+  let cityElement = document.querySelector("cities");
+  cityElement.innerHTML = "Hello";
+}
+
 updateTime();
 setInterval(updateTime, 1000);
+
+let citiesSelectElement = document.querySelector("#select-city");
+
+citiesSelectElement.addEventListener("change", updateCity);

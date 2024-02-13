@@ -45,7 +45,7 @@ h2 {
   width: 100%;
 }
 
-.cities {
+.city {
   display: flex;
   justify-content: space-between;
   margin: 0;
@@ -53,7 +53,7 @@ h2 {
   border-bottom: 1px dashed #dcddea;
 }
 
-.cities:last-child {
+.city:last-child {
   border: none;
 }
 
