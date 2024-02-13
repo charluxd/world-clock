@@ -1,0 +1,10 @@
+body {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200 to 700;
+  font-style: normal;
+  font-size: 18px;
+  color: #35384b;
+  background-color: #f4f2fe;
+  margin: 64px auto;
+}
