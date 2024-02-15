@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>World Clock</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,6 +12,7 @@
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
+    <title>World Clock</title>
   </head>
   <body>
     <div class="container">
@@ -23,6 +23,7 @@
       <section class="search-city">
         <select name="select-city" id="select-city">
           <option value="">Select a city</option>
+          <option value="current">My Current Location</option>
           <option value="America/Los_Angeles">Los Angeles</option>
           <option value="Australia/Sydney">Sydney</option>
           <option value="Asia/Tokyo">Tokyo</option>
@@ -49,8 +50,11 @@
       </section>
     </div>
     <footer>
-      This project was coded by Charlotte Lee and is open sourced on
-      <a href="#">GitHub</a>.
+      This project was coded by <strong>Charlotte Lee</strong> and is open
+      sourced on
+      <a href="https://github.com/charlx99/world-clock" target="”_blank”"
+        >GitHub</a
+      >.
     </footer>
     <script src="script.js"></script>
   </body>
